@@ -41,10 +41,12 @@ The easiest way to install the firmware on the T-Display ESP32 dev board is to u
 ### Installing Platform IO
 
 1. Install [VS Code](https://code.visualstudio.com/download) if you don't already have it installed
+
 2. Install the PlatformIO plugin
 
 ![alt text](https://github.com/cactuscon/cactuscon8/raw/master/img/install_platformio.png "Install PlatformIO")
 3. Clone this [git repo](https://github.com/cactuscon/cactuscon8)
+
 4. Import project
 
 ![alt text](https://github.com/cactuscon/cactuscon8/raw/master/img/open_project.png "Open project")
