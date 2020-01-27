@@ -32,7 +32,7 @@ The badge kit include the following items:
 
 ## Assembly
 
-Assembly instructions can be found in this document.  To begin assembling the included components, skip straight to step C.
+Assembly instructions can be found in this [document](https://github.com/cactuscon/cactuscon8/raw/master/doc/build_the_cactuscon_8_badge.docx).  To begin assembling the included components, skip straight to step C.
 
 ## Installing firmware
 
@@ -45,6 +45,7 @@ The easiest way to install the firmware on the T-Display ESP32 dev board is to u
 2. Install the PlatformIO plugin
 
 ![alt text](https://github.com/cactuscon/cactuscon8/raw/master/img/install_platformio.png "Install PlatformIO")
+
 3. Clone this [git repo](https://github.com/cactuscon/cactuscon8)
 
 4. Import project
