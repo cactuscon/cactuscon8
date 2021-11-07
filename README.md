@@ -57,7 +57,7 @@ The easiest way to install the firmware on the T-Display ESP32 dev board is to u
 
 ## PCB design
 
-[Kicad](https://kicad-pcb.org/) was used to design the this year's badge and you can find the design files [here](https://github.com/cactuscon/cactuscon8/raw/master/doc/2019CactusCon_PCB.zip).
+[Kicad](https://kicad.org/) was used to design the this year's badge and you can find the design files [here](https://github.com/cactuscon/cactuscon8/raw/master/doc/2019CactusCon_PCB.zip).
 
 ## What's next?
 What are you going to build with your badge? Share your hacks with us at 'badge at cactuscon com' or on Twitter (@CactusCon)!  PRs welcome.
