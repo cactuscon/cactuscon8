@@ -16,7 +16,7 @@ float last_x_val;
 float last_y_val;
 float last_z_val;
 
-char* bounce_title = "JIGGLES";
+const char* bounce_title = "JIGGLES";
 int bounce_offset;
 
 int bounce = 0;
@@ -31,7 +31,7 @@ float last_tot_val;
 bool maxDetected = false;
 MAX30105 particleSensor;
 
-char* pulse_title = "BPM";
+const char* pulse_title = "BPM";
 int pulse_offset;
 float lastBPM;
 float lastBeatAvg;
