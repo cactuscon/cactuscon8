@@ -201,7 +201,7 @@ void readMax() {
 
 void readMpu() {
   /* Take a new reading */
-  mpu.read();
+  // mpu.read();
 
   /* Get new sensor events with the readings */
   sensors_event_t a, g, temp;
@@ -261,7 +261,7 @@ result showData()
         // show accelerometer data
         //readMpu();
         /* Take a new reading */
-        mpu.read();
+        // mpu.read();
 
         /* Get new sensor events with the readings */
         sensors_event_t a, g, temp;
@@ -285,6 +285,7 @@ result showData()
         delay(500);
         return proceed;
     }
+    return Menu::result::proceed;
 }
 
 void addDataPoints(float v1, float v2, uint16_t color, float scale=1.0)
@@ -404,7 +405,7 @@ void jiggInit() {
 
 void jiggLoop() {
   /* Take a new reading */
-  mpu.read();
+  // mpu.read();
 
   /* Get new sensor events with the readings */
   //sensors_event_t a, g, temp;
@@ -451,7 +452,7 @@ void jiggLoop() {
 result jigglometer()
 {
   if (!mpuDetected) {
-    char* msg = "No MPU sensor detected. Aborting.";
+    const char* msg = "No MPU sensor detected. Aborting.";
     Serial.println(msg);
     tft.fillScreen(TFT_BLACK);
     tft.drawString(msg, tft.width() / 2, tft.height() / 2);
@@ -652,7 +653,7 @@ void pulseLoop() {
 
 result pulsometer() {
   if (!maxDetected) {
-    char* msg = "No MAX sensor detected. Aborting.";
+    const char* msg = "No MAX sensor detected. Aborting.";
     Serial.println(msg);
     tft.fillScreen(TFT_BLACK);
     tft.drawString(msg, tft.width() / 2, tft.height() / 2);
